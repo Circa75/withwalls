@@ -51,7 +51,7 @@ body {
 ---------------------------------------------------------------------------------------------------- */
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
@@ -60,6 +60,10 @@ body,
 body a {
   color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
+}
+
+strong {
+	font-weight: 700;
 }
 
 /* Intro
@@ -78,16 +82,17 @@ body a {
 }
 
 #main img {
-  width: 80%;
-  max-width: 480px;
+  width: 360px;
 
-  margin-bottom: 2%;
+	margin-bottom: 2px;
 
   opacity: 0.5;
 }
 
 #main p {
-  margin-bottom: 28px;
+  margin-bottom: 23px;
+
+	line-height: 1.75;
 }
 
 #main .contact {
