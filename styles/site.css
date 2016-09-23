@@ -16,6 +16,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+	transition-duration: 0.25s;
+}
+
 /* Background
 ---------------------------------------------------------------------------------------------------- */
 
@@ -58,7 +62,7 @@ body {
 
 body,
 body a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.75);
   text-decoration: none;
 }
 
@@ -86,7 +90,7 @@ strong {
 
 	margin-bottom: 2px;
 
-  opacity: 0.5;
+  opacity: 0.85;
 }
 
 #main p {
@@ -102,7 +106,7 @@ strong {
 
   padding: 0 15px;
 
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 15px;
 
   font-size: 12px;
@@ -110,9 +114,7 @@ strong {
 }
 
 #main .contact:hover {
-  background-color: $gold;
-
-  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.0);
 }
 
 /* Social
@@ -142,7 +144,7 @@ strong {
   background-repeat: no-repeat;
   background-size: 18px;
 
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 #social .icon:hover {
